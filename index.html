@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Define character set and viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Set the title of the page -->
+    <title>Google Books API Demo</title>
+    <!-- Link to the external CSS file for styling -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Main heading of the page -->
+    <h1>Google Books API Demo</h1>
+    <!-- Paragraph element to display student information -->
+    <p id="student-info"></p>
+    <!-- Container for search input and button -->
+    <div id="search-container">
+      <!-- Input field for user to enter search query -->
+      <input type="text" id="search-input" placeholder="Enter search query" />
+      <!-- Button to trigger the book search -->
+      <button onclick="searchBooks()">Search</button>
+    </div>
+    <!-- Container to display search results -->
+    <div id="results-container"></div>
+    <!-- Include the JavaScript file and defer its execution until the document has finished parsing -->
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
